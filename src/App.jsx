@@ -36,7 +36,7 @@ function App() {
       </div>
     </div>
     <div className="hero-pages">
-      <img src="a.jpg" alt="" />
+      <img src={`${import.meta.env.BASE_URL}images/a.jpg`} alt="" />
     </div>
     <div className="hero-card">
       <div className="card">
