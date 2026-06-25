@@ -40,22 +40,22 @@ function App() {
     </div>
     <div className="hero-card">
       <div className="card">
-        <img src="a2.jpg" alt="" />
+        <img src={`${import.meta.env.BASE_URL}images/a2.jpg`} alt="" />
         <h2>Product</h2>
         <p>price $ 2500</p>
       </div>
       <div className="card">
-        <img src="aa.jpg" alt="" />
+        <img src={`${import.meta.env.BASE_URL}images/aa.jpg`} alt="" />
         <h2>Product</h2>
         <p>Price $ 3000</p>
       </div>
       <div className="card">
-        <img src="aaa.jpg" alt="" />
+        <img src={`${import.meta.env.BASE_URL}images/aaa.jpg`} alt="" />
           <h2>Product</h2>
         <p>Price $ 4000</p>
       </div>
       <div className="card">
-        <img src="aaaaa.jpg" alt="" />
+        <img src={`${import.meta.env.BASE_URL}images/aaaaa.jpg`} alt="" />
           <h2>Product</h2>
         <p>Price $ 5000</p>
       </div>
